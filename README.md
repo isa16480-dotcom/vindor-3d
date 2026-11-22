@@ -11,6 +11,12 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 > Les bâtiments de la cité ont été générés pour ce projet. Textures photo, arbres, statues, buissons,
 > rochers, caisses et tonneaux : [Poly Haven](https://polyhaven.com) (licence CC0, domaine public).
 
+## Nouveautés de la version 0.8 : ouverture aux modules complémentaires
+- API d'extension (événements de la vue 3D, contrôle de la caméra, sélection d'un personnage à la souris, apparition et
+  disparition des figures) utilisée par **[Vindor 3D — RPG](https://github.com/isa16480-dotcom/vindor-3d-rpg)** :
+  mode fantôme du MJ, caméra tactique, combats, fiches au clic droit, désintégration des personnages…
+- Le fonctionnement de Vindor 3D seul ne change pas.
+
 ## Nouveautés de la version 0.7 : bâtiments complets (taverne)
 - **Portes animées** : approche-toi d'une porte et appuie sur **E** pour l'ouvrir ou la fermer. La porte s'ouvre aussi
   sur la carte 2D de Foundry (et inversement : une porte ouverte en 2D s'ouvre en 3D). Une porte verrouillée reste fermée.
