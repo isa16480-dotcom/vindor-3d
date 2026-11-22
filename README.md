@@ -11,9 +11,16 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 > Les bâtiments de la cité ont été générés pour ce projet. Textures photo, arbres, statues, buissons,
 > rochers, caisses et tonneaux : [Poly Haven](https://polyhaven.com) (licence CC0, domaine public).
 
+## Nouveautés de la version 0.5 : garde chevalier réaliste
+- Le garde fourni est maintenant un **vrai modèle réaliste** (armure de plaques sculptée, textures 2K),
+  animé avec des animations de capture de mouvement reciblées dans **Unreal Engine 5.8** (IK Rig + IK Retargeter).
+- Crédits (obligatoires, licence CC-BY) :
+  - Modèle : [« Medieval Knight | Sculpture | Game ready »](https://sketchfab.com/3d-models/medieval-knight-sculpture-game-ready-6cdd055b4afa41eb9360dbbfe75c7f10)
+    par **by__Rx**, licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Modifié : animations ajoutées, textures réduites.
+  - Animations : [Universal Animation Library](https://quaternius.com/packs/universalanimationlibrary.html) par **Quaternius** (CC0).
+
 ## Nouveautés de la version 0.4 : garde chevalier animé
-- Modèle 3D fourni : **Garde chevalier** (armure de plaques, heaume fermé, écharpe et pan de tissu bordeaux, épée),
-  avec trois animations : repos, marche, course.
+- Modèle 3D fourni : **Garde chevalier**, avec trois animations : repos, marche, course.
 - Sur un jeton : clic droit → bouton **cube** (Modèle 3D) → *Modèle fourni* → « Garde chevalier ».
 - Les animations suivent la vitesse : un jeton déplacé de quelques cases **marche tranquillement**,
   plus loin il court pour rattraper sa place, et il se met au repos à l'arrêt.
