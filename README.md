@@ -11,6 +11,14 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 > Les bâtiments de la cité ont été générés pour ce projet. Textures photo, arbres, statues, buissons,
 > rochers, caisses et tonneaux : [Poly Haven](https://polyhaven.com) (licence CC0, domaine public).
 
+## Nouveautés de la version 0.4 : garde chevalier animé
+- Modèle 3D fourni : **Garde chevalier** (armure de plaques, heaume fermé, écharpe et pan de tissu bordeaux, épée),
+  avec trois animations : repos, marche, course.
+- Sur un jeton : clic droit → bouton **cube** (Modèle 3D) → *Modèle fourni* → « Garde chevalier ».
+- Les animations suivent la vitesse : un jeton déplacé de quelques cases **marche tranquillement**,
+  plus loin il court pour rattraper sa place, et il se met au repos à l'arrêt.
+- Ton propre modèle `.glb` animé marche aussi : nomme ses animations *Idle*, *Walk* et *Run*.
+
 ## Nouveautés de la version 0.3 : jour, nuit et brouillard
 - Outil MJ **Ambiance 3D** (icône nuage et lune, barre d'outils Jetons) : *Jour*, *Soir*, *Nuit*, ou
   **Suivre l'obscurité de la scène**. Avec ce dernier choix, la 3D passe du jour à la nuit en même temps que la carte 2D,
