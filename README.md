@@ -8,7 +8,15 @@ apparaissent en 3D (figurine par défaut ou ton propre modèle `.glb`).
 Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 
 > Création de fan non officielle, inspirée de l'univers de Runeterra. Sans lien avec Riot Games.
-> Tous les modèles et textures de la cité ont été générés pour ce projet.
+> Les bâtiments de la cité ont été générés pour ce projet. Textures photo, arbres, statues, buissons,
+> rochers, caisses et tonneaux : [Poly Haven](https://polyhaven.com) (licence CC0, domaine public).
+
+## Nouveautés de la version 0.2 (cité réaliste)
+- Bâtiments aux arêtes arrondies, vraies fenêtres (encadrements en pierre, croisillons, vitres, volets), portes en planches.
+- Textures photo : brique, pierre, enduit, ardoise, tuiles, pavés, bois, fer, terre, herbe, falaises.
+- Torches murales et braseros avec de **vraies flammes animées** qui éclairent les murs autour de toi.
+- Statues équestres en bronze, vrais arbres feuillus, herbe qui ondule au vent, fougères, buissons, rochers moussus.
+- Version détaillée près de toi, version allégée au loin : la ville reste fluide.
 
 ## Commandes
 
@@ -61,7 +69,8 @@ Décompresse `vindor-3d.zip` dans `Données Foundry/Data/modules/vindor-3d/`, re
 
 ## Bon à savoir
 - La bibliothèque 3D (three.js) est chargée depuis Internet (jsDelivr) à l'ouverture de la vue 3D.
-- La ville fait environ 7 Mo (modèle compressé + textures). Le premier chargement prend quelques secondes.
+- La ville fait environ 33 Mo (modèles compressés + textures). Le premier chargement prend un peu de temps,
+  ensuite le navigateur la garde en cache.
 - Chaque joueur affiche la 3D sur son propre ordinateur : une carte graphique correcte aide.
-  Si c'est lent, mets la qualité sur *Basse*.
+  Si c'est lent, mets la qualité sur *Moyenne* (moins d'herbe et de détails) ou *Basse* (pas d'herbe, pas d'ombres).
 - Le dossier `test/` contient un banc d'essai hors Foundry (`test/index.html`, à ouvrir via un petit serveur web local).
