@@ -11,6 +11,16 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 > Les bâtiments de la cité ont été générés pour ce projet. Textures photo, arbres, statues, buissons,
 > rochers, caisses et tonneaux : [Poly Haven](https://polyhaven.com) (licence CC0, domaine public).
 
+## Nouveautés de la version 0.3 : jour, nuit et brouillard
+- Outil MJ **Ambiance 3D** (icône nuage et lune, barre d'outils Jetons) : *Jour*, *Soir*, *Nuit*, ou
+  **Suivre l'obscurité de la scène**. Avec ce dernier choix, la 3D passe du jour à la nuit en même temps que la carte 2D,
+  y compris quand un module d'heure ou de météo assombrit la scène.
+- **Brouillard** : aucun, léger ou épais. On voit mal devant soi et autour, et des nappes de brume flottent autour du personnage.
+- La nuit : étoiles, lune, fenêtres allumées, torches et braseros plus lumineux.
+- Tout le monde voit la même ambiance. Le changement se fait en douceur, sans recharger la 3D.
+- Pour une macro : `game.modules.get("vindor-3d").api.setAmbience("night", 2)`
+  (heure `"auto"`, `"day"`, `"dusk"`, `"night"` ; brouillard `0`, `1` ou `2`).
+
 ## Nouveautés de la version 0.2 (cité réaliste)
 - Bâtiments aux arêtes arrondies, vraies fenêtres (encadrements en pierre, croisillons, vitres, volets), portes en planches.
 - Textures photo : brique, pierre, enduit, ardoise, tuiles, pavés, bois, fer, terre, herbe, falaises.
