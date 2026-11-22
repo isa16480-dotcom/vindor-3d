@@ -11,6 +11,17 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 > Les bâtiments de la cité ont été générés pour ce projet. Textures photo, arbres, statues, buissons,
 > rochers, caisses et tonneaux : [Poly Haven](https://polyhaven.com) (licence CC0, domaine public).
 
+## Nouveautés de la version 0.7 : bâtiments complets (taverne)
+- **Portes animées** : approche-toi d'une porte et appuie sur **E** pour l'ouvrir ou la fermer. La porte s'ouvre aussi
+  sur la carte 2D de Foundry (et inversement : une porte ouverte en 2D s'ouvre en 3D). Une porte verrouillée reste fermée.
+- **Fenêtres vitrées** (cadre, croisillons) : on voit dehors depuis l'intérieur.
+- Murs à colombages, soubassement de pierre, plafonds à poutres, toit en tuiles, cheminée, terrasse couverte.
+- Meubles réalistes (tables, chaises, tabourets, tonneaux, lits, étagères, vaisselle, bougies allumées…) : modèles
+  [Poly Haven](https://polyhaven.com) (CC0).
+- **Alentours** : forêt tout autour, route qui s'enfonce dans les bois, **brume épaisse aux bords de la carte**
+  (on ne voit jamais la fin du monde).
+- Taille des personnages adaptée à chaque carte (un peu plus petits sur les cartes Dungeon Alchemist).
+
 ## Nouveautés de la version 0.6 : cartes Dungeon Alchemist en 3D
 - Une carte exportée de **Dungeon Alchemist** en *Universal VTT* (`.dd2vtt`) peut être convertie en monde 3D :
   le sol reprend l'image de la carte, les murs de la carte deviennent de vrais murs en pierre,
@@ -63,6 +74,7 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 | D ou → | aller à droite |
 | Maj | courir |
 | Espace | sauter |
+| E | ouvrir / fermer la porte la plus proche |
 | Clic + glisser | tourner la caméra |
 | Molette | zoom (jusqu'à la vue presque à la 1re personne) |
 | V ou Échap | revenir à la carte 2D |
