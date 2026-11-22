@@ -11,6 +11,16 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 > Les bâtiments de la cité ont été générés pour ce projet. Textures photo, arbres, statues, buissons,
 > rochers, caisses et tonneaux : [Poly Haven](https://polyhaven.com) (licence CC0, domaine public).
 
+## Nouveautés de la version 0.6 : cartes Dungeon Alchemist en 3D
+- Une carte exportée de **Dungeon Alchemist** en *Universal VTT* (`.dd2vtt`) peut être convertie en monde 3D :
+  le sol reprend l'image de la carte, les murs de la carte deviennent de vrais murs en pierre,
+  les bords de fosse deviennent des murets, les portes restent ouvertes. La lave et les braises brillent et éclairent la nuit.
+- Option île flottante : les nuages autour de l'île sont retirés, de la roche pend sous l'île et une mer de nuages s'étend en dessous.
+- Outil MJ **Créer une scène depuis une carte 3D** (icône donjon) : choisis le fichier `.json` de la carte convertie
+  (posé avec son `.glb` et son image dans le même dossier). La scène est créée avec l'image, la grille, les murs et les portes,
+  et elle est déjà reliée à la 3D.
+- Les cartes rectangulaires sont gérées (largeur et hauteur différentes).
+
 ## Nouveautés de la version 0.5 : garde chevalier réaliste
 - Le garde fourni est maintenant un **vrai modèle réaliste** (armure de plaques sculptée, textures 2K),
   animé avec des animations de capture de mouvement reciblées dans **Unreal Engine 5.8** (IK Rig + IK Retargeter).
