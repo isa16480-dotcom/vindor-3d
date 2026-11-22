@@ -1,6 +1,6 @@
 # Vindor 3D — exploration en vue 3D pour Foundry VTT / The Forge
 
-Tu poses ton jeton sur la carte, tu appuies sur **Maj+V** (ou le cube dans la barre d'outils des jetons) et tu
+Tu poses ton jeton sur la carte, tu fais un clic droit sur ton jeton puis tu cliques sur le bouton **Vue 3D** (casque), ou tu appuies sur **V**, et tu
 apparais **à l'emplacement exact de ton jeton**, en vue 3D à la troisième personne. Tu marches dans la ville,
 et ton jeton se déplace en même temps sur la carte 2D pour toute la table. Les autres jetons de la scène
 apparaissent en 3D (figurine par défaut ou ton propre modèle `.glb`).
@@ -22,7 +22,7 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
 | Espace | sauter |
 | Clic + glisser | tourner la caméra |
 | Molette | zoom (jusqu'à la vue presque à la 1re personne) |
-| Échap ou Maj+V | revenir à la carte 2D |
+| V ou Échap | revenir à la carte 2D |
 
 ZQSD et WASD marchent tous les deux : le module lit la position physique des touches (clavier AZERTY ou QWERTY).
 
@@ -33,9 +33,9 @@ Dans la barre d'outils **Jetons** :
 - **Configurer la 3D de la scène** (icône ville) : relie une scène à un monde 3D.
   - *Utiliser Vindor* pour la cité fournie ;
   - ou ton propre modèle `.glb` + le carré (en mètres) que couvre l'image de fond.
-- **Vue 3D** (icône cube) : ouvrir / fermer.
+- **Vue 3D** (icône cube) : ouvrir / fermer (touche **V**, modifiable dans *Configurer les contrôles*).
 
-Sur chaque jeton (clic droit → HUD) : bouton **cube** = choisir un **modèle 3D (.glb)**, sa taille en mètres et une échelle.
+Sur chaque jeton (clic droit → HUD) : bouton **casque** = passer ce jeton en vue 3D ; bouton **cube** = choisir un **modèle 3D (.glb)**, sa taille en mètres et une échelle.
 Si le modèle contient des animations nommées *Idle*, *Walk* ou *Run*, elles sont jouées automatiquement.
 
 Réglages du module : qualité (basse / moyenne / haute), ouverture automatique de la 3D en arrivant sur une scène 3D,
