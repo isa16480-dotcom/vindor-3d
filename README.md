@@ -38,6 +38,11 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
   et elle est déjà reliée à la 3D.
 - Les cartes rectangulaires sont gérées (largeur et hauteur différentes).
 
+## Nouveautés de la version 0.9.3
+- Le bouton « ✕ Carte 2D » au milieu de la vue 3D est retiré (l'interface de Foundry le recouvrait) :
+  retour à la carte avec **V** ou **Échap**.
+- 0.9.2 : l'action de déplacement **Courir** apparaît bien dans Foundry v13.
+
 ## Nouveautés de la version 0.9.1
 - **Visages corrigés** sur les personnages de la troupe : le visage ne se déforme plus quand le bras ou l'arme bouge
   (poids du squelette refaits autour du crâne).
