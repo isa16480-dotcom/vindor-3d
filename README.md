@@ -38,13 +38,51 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
   et elle est déjà reliée à la 3D.
 - Les cartes rectangulaires sont gérées (largeur et hauteur différentes).
 
+## Nouveautés de la version 0.9 : la troupe Vindor (personnages animés)
+- Une troupe de **personnages réalistes animés**, choisis d'après les concepts de champions (« champion 2 ») :
+  chevaliers, paladins, ange en armure, guerrières, barbares, roi, rôdeurs, sorcière, tieffeline...
+  Sur un jeton : bouton **cube** (Modèle 3D) → *Modèle fourni* → groupe « Troupe Vindor ».
+- Chaque personnage a les **67 animations** du garde (repos, marche, course, garde, attaques, sorts, arc, coups reçus,
+  mort, victoire, gestes), reciblées sur son squelette dans **Unreal Engine 5.8**.
+- Modèles d'origine : Sketchfab, licence **CC BY 4.0** (crédits obligatoires, voir
+  [assets/models/cast/CREDITS.md](assets/models/cast/CREDITS.md)). Squelettes et poids ajoutés pour les modèles qui n'en avaient pas.
+- Le garde chevalier a lui aussi désormais toutes ces animations.
+
+Crédits des modèles de la troupe (CC BY 4.0, modifiés pour Vindor : squelette, poids, animations, polygones et textures réduits) :
+
+| Personnage | Concept | Modèle d'origine | Auteur | Licence |
+|---|---|---|---|---|
+| Guerrier du désert | 42 | [Arab Warrior Cloth T-pose](https://sketchfab.com/3d-models/7ff43056207c4f54942889307eaac5c9) | Mostafa Ebrahim | CC Attribution |
+| Séraphielle, ange en armure | 43 | [SERAPHIELLE // The Celestial Oathmaiden](https://sketchfab.com/3d-models/df7d19701854432abbed87fce92d49bc) | Atahan3D | CC Attribution |
+| Sorcière | 44 | [Lightning Mage (Free Download)](https://sketchfab.com/3d-models/f89b591b51cb42c98f84606999e4ec89) | Adipriatna | CC Attribution |
+| Reine noire | 45 | [Valkyrie](https://sketchfab.com/3d-models/fca01409374441619292c5c397f3ca16) | j-art | CC Attribution |
+| Pèlerine encapuchonnée | 46 | [Hooded Alchemist Rogue](https://sketchfab.com/3d-models/ccaaa08a13aa4161954ecf0f8f29eda6) | ItsKrish7 | CC Attribution |
+| Rôdeur elfe | 47 | [Elven Ranger](https://sketchfab.com/3d-models/daed59994fd340bc8f7e1d9bb30d6cdf) | BiscuitEater | CC Attribution |
+| Assassine encapuchonnée | 48 | [Assassin-female](https://sketchfab.com/3d-models/0729f35020284e218f70bd5c9f4fb1a7) | milakpro | CC Attribution |
+| Guerrière viking | 49 | [GART220 Female Viking](https://sketchfab.com/3d-models/29f88c37b399483dbaba79b4650d4752) | Finn_Swift cant move to Fab process is broken | CC Attribution |
+| Roi maudit | 51 | [Cursed Knight - UE5 Character (Game Ready)](https://sketchfab.com/3d-models/f204e0ad3af645bcb0ecffd9e9ae9a15) | Blue Spirit | CC Attribution |
+| Capitaine lansquenet | 53 | [Female Captain Landsknecht](https://sketchfab.com/3d-models/e53dbccfee714cf49a1b3bd682325acf) | Alchimiks | CC Attribution |
+| Chevalier oublié | 55 | [⛨ The Forgotten Knight ⛨](https://sketchfab.com/3d-models/d14eb14d83bd4e7ba7cbe443d76a10fd) | dark_igorek | CC Attribution |
+| Paladin au tabard sanglant | 55 | [THE SAVIOR // Dark Fantasy Paladin](https://sketchfab.com/3d-models/f6d775c421654b1eb4a4fdd8e7c85959) | Atahan3D | CC Attribution |
+| Chevalière en armure noire | 58 | [Female Knight Model](https://sketchfab.com/3d-models/28f5b2cf36ef4d42a582bb8847b69642) | Desmond.Ballantyne | CC Attribution |
+| Aelthorys, sainte guerrière | 59 | [AELTHORYS // The Ivory Dawnwarden](https://sketchfab.com/3d-models/13e92a3b1c324ee58066441b2c69372c) | Atahan3D | CC Attribution |
+| Roi en armure d'or | 60 | [Armored King](https://sketchfab.com/3d-models/e3978fb660cf47278485d44eeba488ef) | Calviking073 | CC Attribution |
+| Vagabond de fer | 61 | [IRON VAGABOND // The Nameless Swordsman](https://sketchfab.com/3d-models/783b74be12b04acdbe45a1f10547babd) | Atahan3D | CC Attribution |
+| Tieffeline | 62 | [Character Art - Tiefling Rogue](https://sketchfab.com/3d-models/2edcf09e10724bbb839e7920efc5f6e6) | AlexJustArt | CC Attribution |
+| Bourreau encapuchonné | 63 | [Executioner Warrior - Hooded Axe & Armor](https://sketchfab.com/3d-models/9924a0f56d164b29abf0c3bf0b2b2333) | Pigcraft | CC Attribution |
+| Barbare rousse | 65 | [EIRVANA // The Raven Barbar](https://sketchfab.com/3d-models/8860a4f611734aafb59861e995766b80) | Atahan3D | CC Attribution |
+| Chevalier hospitalier | 66 | [Hospitalier Knight [Mixamo rigged, game ready]](https://sketchfab.com/3d-models/6a6657a61d694fa59700da7f05d0219b) | everlasting17th | CC Attribution |
+| Écuyère | 67 | [Medieval warrior girl 2](https://sketchfab.com/3d-models/504787f762684f59b30f659290bfb510) | BELAZ | CC Attribution |
+| Chevalier lourd | 68 | [Heavy Knight](https://sketchfab.com/3d-models/2343cc4a52be4f1eaa64c995886f8273) | JakeHoughton | CC Attribution |
+| Jeune paladin templier | 69 | [Templar Knight (rigged, game-ready)](https://sketchfab.com/3d-models/e57edad1bb8e4dbd8573f85695ceecde) | everlasting17th | CC Attribution |
+
 ## Nouveautés de la version 0.5 : garde chevalier réaliste
 - Le garde fourni est maintenant un **vrai modèle réaliste** (armure de plaques sculptée, textures 2K),
   animé avec des animations de capture de mouvement reciblées dans **Unreal Engine 5.8** (IK Rig + IK Retargeter).
 - Crédits (obligatoires, licence CC-BY) :
   - Modèle : [« Medieval Knight | Sculpture | Game ready »](https://sketchfab.com/3d-models/medieval-knight-sculpture-game-ready-6cdd055b4afa41eb9360dbbfe75c7f10)
     par **by__Rx**, licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Modifié : animations ajoutées, textures réduites.
-  - Animations : [Universal Animation Library](https://quaternius.com/packs/universalanimationlibrary.html) par **Quaternius** (CC0).
+  - Animations : [Universal Animation Library 1 et 2](https://quaternius.com/packs/universalanimationlibrary.html) par **Quaternius** (CC0), reciblées dans Unreal Engine 5.8 ; gestes supplémentaires (saluer, montrer, victoire, intimider, dégainer, rengainer, tir à l'arc, coup de lance...) créés pour Vindor sur le même squelette.
 
 ## Nouveautés de la version 0.4 : garde chevalier animé
 - Modèle 3D fourni : **Garde chevalier**, avec trois animations : repos, marche, course.
