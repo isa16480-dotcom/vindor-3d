@@ -38,6 +38,16 @@ Compatibilité : Foundry VTT v12 et v13 (donc The Forge).
   et elle est déjà reliée à la 3D.
 - Les cartes rectangulaires sont gérées (largeur et hauteur différentes).
 
+## Nouveautés de la version 0.9.1
+- **Visages corrigés** sur les personnages de la troupe : le visage ne se déforme plus quand le bras ou l'arme bouge
+  (poids du squelette refaits autour du crâne).
+- **Vraie marche** pour les personnages animés : ils marchent à leur allure naturelle (au lieu de trottiner) ;
+  **Maj** fait courir son personnage. Nouvelle action de déplacement **Courir** pour les jetons (Foundry v13) :
+  en 3D, le personnage court.
+- Pour les modules complémentaires : une figure peut être retenue sur place puis déplacée à vitesse imposée
+  (utilisé par le **mode pion** de Vindor 3D — RPG 0.4 : les statues se soulèvent et glissent comme des pièces d'échecs) ;
+  les fenêtres marquées `data-v3d-ui` dans la vue 3D reçoivent clics et molette (mini-carte 2D du MJ).
+
 ## Nouveautés de la version 0.9 : la troupe Vindor (personnages animés)
 - Une troupe de **personnages réalistes animés**, choisis d'après les concepts de champions (« champion 2 ») :
   chevaliers, paladins, ange en armure, guerrières, barbares, roi, rôdeurs, sorcière, tieffeline...
